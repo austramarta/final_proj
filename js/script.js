@@ -39,7 +39,7 @@ $('#form').submit(function (e){
    var c = document.forms["registration-form"]["c"].value;
    var d = document.forms["registration-form"]["d"].value;
    var country = document.forms["registration-form"]["country"].value;
-   if (e.keyCode === 13 && a == "", b == "", c == "", d == "", country == "") {
+   if (a == "", b == "", c == "", d == "", country == "") {
       alert("please fill out required (*) fields");
       return false;
    }  
