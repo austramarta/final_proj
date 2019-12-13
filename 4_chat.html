@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>chat with us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+        <!-- NAVBAR logo-->
+        <a class="navbar-brand" href="1_home.html">
+          <img src="images/logo.png" width="30" height="30" alt="">
+        </a>
+        <!-- NAVBAR hamburger-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+          aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--NAVBAR txt-->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="1_home.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="2_articles.html">articles</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="4_chat.html">chat<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="5_register.html">register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="6_about.html">about us</a>
+            </li>
+          </ul>
+      </nav>
+
+      <!--BREADCRUMB-->
+      <div aria-label="breadcrumb" class="breadcrumb-txt">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="1_home.html">home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">chat</li>
+        </ol>
+      </div>
+
+      <!--CHAT TITLE-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <p class="title-txt">CHAT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- CHAT TEXT + MOSAIC -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm">
+
+            <div class="row">
+              <div class="col-12">
+                <div>
+                  <p class="mb-5" id="chat-box"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <p class="input-txt"><label for="username">username:</label>
+                  <p class="input-txt mb-5"><input type="text" id="username"></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-7">
+                <p class="input-txt"><label for="message">message:</label>
+                  <div class="row">
+                    <div class="col-10">
+                      <div class="mb-3">
+                        <p class="input-txt">
+                          <textarea id="message" class="form-control"></textarea>
+                        </p>
+                        <div>
+                          <button type="button" class="btn btn-light input-txt my-3" id="send-btn">SEND</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-sm">
+            <div class="mosaic1">
+
+              <div class="mosaic__item1">
+                <img class="mosaic1-img" src="images/marz_depressed_3.jpg" alt="">
+              </div>
+
+              <div class="mosaic__item1">
+                  <img class="mosaic1-img" src="images/marz_depressed_2.jpg" alt="">
+                </div>
+
+              <div class="mosaic__item1">
+                  <img class="mosaic1-img" src="images/marz_depressed.jpg" alt="">
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+  <!--FOOTER-->
+  </div>
+  <footer class="footer">
+    <span class="text-muted">(c) MEOW</span>
+  </footer>
+  </div>
+
+</div>
+</div>
+
+
+
+
+      <!--SRC-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+</body>
+
+</html>
