@@ -11,6 +11,10 @@
     font-size: small;   
 }
 
+h2 {
+    font-family: 'Sulphur Point', sans-serif;  
+}
+
 /* HOME */
 #carousel {
     max-width: 90%;
